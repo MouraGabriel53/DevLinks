@@ -1,0 +1,90 @@
+<!--Define HTML 5-->
+<!DOCTYPE html>
+<!--Língua padrão Português BR-->
+<html lang="pt-br">
+  <head>
+    <!--Import da fonte INTER do site Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Compatibilidade com caracteres especias-->
+    <meta charset="UTF-8" />
+    <!--Ajusta a página de acordo com o dispositivo e inicia sem zoom (adapta ao device e permite o usuário dar zoom)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Adiciona um ícone na TAB-->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/link-outline.svg"
+    />
+
+    <title>DevLinks - Agrupador de links</title>
+
+    <!--Indica onde está o arquivo CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Main do projeto-->
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/avatar.png" alt="Logo minimalista com fundo preto e letras G e B trançadas" />
+        <p>Gabriel Moura</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="#" target="_blank">Sobre mim</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Veja meu TCC</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Veja meu poritfólio</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Leia meu artigo</a>
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/MouraGabriel53" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/gabrielnmoura/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+
+        <a href="mailto:contato.gabrielnmoura@gmail.com" target="_blank">
+          <ion-icon name="mail-outline"></ion-icon>
+        </a>
+
+        <a href="https://discord.gg/ZhjX5MjC" target="_blank">
+          <ion-icon name="logo-discord"></ion-icon>
+        </a>
+      </div>
+      <footer>
+        Parceria 🤝 com a
+        <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
