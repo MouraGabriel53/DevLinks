@@ -2,7 +2,8 @@
 
 <p align="center">
 Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-<a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
+<a href="https://www.rocketseat.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=lead&utm_term=perpetuo&utm_content=institucional-lead-home-texto-lead-brandkws-none-none-institucional-none-none-br-google&gad_source=1&gclid=CjwKCAiA6t-6BhA3EiwAltRFGDdf-2IuzGilQ4Hd6YLcuIAVC3yFNr6HS29rD-PhvUq_2ARkF2YTshoCHtgQAvD_BwE">Venha para a Rocketseat!</a>
+(não fui pago para isso...rsrsrs)
 </p>
 
 <p align="center">
