@@ -35,6 +35,8 @@ body {
   /* Agrupando -> color, image, repeat, position/size */
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 body * {
@@ -43,10 +45,12 @@ body * {
 }
 
 #container {
+  box-sizing: border-box;
   width: 100%;
   max-width: 588px;
   margin: 56px auto 0px auto;
   padding: 0px 24px;
+  overflow: hidden;
 }
 
 #profile {
@@ -85,14 +89,14 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-out 0.5s;
+  animation: slide-out 0.2s;
 }
 
 .light #switch button {
-  animation: slide-in 0.5s forwards;
+  animation: slide-in 0.2s forwards;
 }
 
-#switch button:hover{
+#switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
 
